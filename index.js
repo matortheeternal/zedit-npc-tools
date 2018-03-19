@@ -11,7 +11,22 @@ ngapp.run(function(settingsService) {
         templateUrl: `${modulePath}/partials/npcGenerationSettings.html`,
         controller: 'npcGenerationSettingsController',
         defaultSettings: {
-            names: fh.loadJsonFile(`${modulePath}/defaultNames.json`)
+            names: fh.loadJsonFile(`${modulePath}/defaultNames.json`),
+            facialHairChance: 0.4,
+            scarChance: 0.15,
+            ignoreBethHairs: false,
+            ignoreBethBrows: false,
+            ignoreBethEyes: false,
+            ignoreBethFemaleHairs: false,
+            skipNaming: false,
+            skipHeadParts: false,
+            skipHairColor: false,
+            skipHeight: false,
+            skipWeight: false,
+            skipOutfit: false,
+            skipLighting: false,
+            skipTintLayers: false,
+            loadFromMods: true
         }
     });
 });
