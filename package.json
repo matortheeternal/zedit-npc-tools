@@ -1,0 +1,22 @@
+{
+  "name": "zedit-npc-tools",
+  "productName": "zEdit NPC Tools",
+  "description": "Set of tools for NPC generation.",
+  "version": "1.0.0",
+  "author": "Mator",
+  "copyright": "© 2017, Mator",
+  "repository": "https://github.com/matortheeternal/zedit-npc-tools",
+  "license": "MIT",
+  "scripts": {
+    "build": "gulp build",
+    "release": "gulp release"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-include": "^2.3.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-zip": "^4.0.0"
+  }
+}
