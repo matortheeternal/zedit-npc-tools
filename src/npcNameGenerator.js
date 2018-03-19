@@ -3,7 +3,7 @@ ngapp.service('npcNameGenerator', function(settingsService) {
     let names = settingsService.settings.npcGeneration.names;
 
     let firstNameKey = function(female) {
-        return female ? 'FemaleNames' : 'MaleNames'
+        return female ? 'FemaleNames' : 'MaleNames';
     };
 
     let hasFirstName = function(race, female) {
@@ -11,7 +11,7 @@ ngapp.service('npcNameGenerator', function(settingsService) {
     };
 
     let hasFamilyName = function(race) {
-        return names.hasOwnProperty(race)
+        return names.hasOwnProperty(race);
     };
 
     let hasNamesFor = function(race, female, lastName) {
