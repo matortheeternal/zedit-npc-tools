@@ -1,38 +1,22 @@
-ngapp.service('npcHeadPartService', function(settingsService) {
+ngapp.service('npcHeadPartService', function(settingsService, progressService) {
     let npcSettings = settingsService.settings.npcGeneration,
         validRaces = {},
-        maleHeadParts = {
-            hairs: [],
-            facialHairs: [],
-            brows: [],
-            eyes: [],
-            scars: []
-        },
-        femaleHeadParts = {
-            hairs: [],
-            brows: [],
-            eyes: [],
-            scars: []
-        };
+        maleHeadParts = {},
+        femaleHeadParts = {};
 
     let headPartNotFoundError = function(race, female, partType) {
-        let gender = female ? 'Female' : 'Male';
-        return new Error(`No ${partType} found for ${gender} ${race}.`);
-    };
-
-    let resetHeadParts = function(npc) {
-        xelib.RemoveElement(npc, 'Head Parts');
-        xelib.AddElement(npc, 'Head Parts');
+        let gender = female ? 'Female' : 'Male',
+            message = `No ${partType} found for ${gender} ${race}.`;
+        if (npcSettings.headPartErrors) throw new Error(message);
+        progressService.progressMessage(message);
     };
 
     let randomCheck = function(chance) {
         return Math.random() < chance;
     };
 
-    let makeNewHeadPart = function(npc, first) {
-        return first ?
-            xelib.GetElement(npc, 'Head Parts\\[0]') :
-            xelib.AddElement(npc, 'Head Parts\\.');
+    let newHeadPart = function(npc) {
+        return xelib.AddArrayItem(npc, 'Head Parts', '', '');
     };
 
     let getEditorIDs = function(rec, path) {
@@ -63,12 +47,11 @@ ngapp.service('npcHeadPartService', function(settingsService) {
         return (female ? femaleHeadParts : maleHeadParts)[partType];
     };
 
-    let applyHeadPart = function(npc, race, female, partType, first = false) {
-        let headParts = getHeadParts(female, partType);
-        if (!headParts) return;
-        xelib.WithHandle(makeNewHeadPart(npc, first), function(element) {
-            let headPart = headParts.filter(matchesRace(race)).random();
-            if (!headPart) throw headPartNotFoundError(race, female, partType);
+    let applyHeadPart = function(npc, race, female, partType) {
+        let headParts = getHeadParts(female, partType) || [],
+            headPart = headParts.filter(matchesRace(race)).random();
+        if (!headPart) return headPartNotFoundError(race, female, partType);
+        xelib.WithHandle(newHeadPart(npc), function(element) {
             xelib.SetLinksTo(element, '', headPart);
         });
     };
@@ -79,8 +62,8 @@ ngapp.service('npcHeadPartService', function(settingsService) {
     };
 
     this.generateHeadParts = function(npc, race, female) {
-        resetHeadParts(npc);
-        applyHeadPart(npc, race, female, 'hairs', true);
+        xelib.RemoveElement(npc, 'Head Parts');
+        applyHeadPart(npc, race, female, 'hairs');
         applyHeadPart(npc, race, female, 'eyes');
         if (race !== 'Khajiit')
             applyHeadPart(npc, race, female, 'brows');
