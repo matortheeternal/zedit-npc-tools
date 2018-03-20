@@ -1,0 +1,282 @@
+{
+  "HighElfRace": {
+    "female": [{
+      "label": "FemaleUpperEyeSocket",
+      "index": 25,
+      "skipChance": 0.9,
+      "minTinv": 5,
+      "maxTinv": 20
+    }, {
+      "label": "FemaleLowerEyeSocket",
+      "index": 26,
+      "skipChance": 0.9,
+      "minTinv": 5,
+      "maxTinv": 20
+    }, {
+      "label": "FemaleHead_Cheeks",
+      "index": 27,
+      "skipChance": 0.9,
+      "minTinv": 5,
+      "maxTinv": 20
+    }, {
+      "label": "FemaleHead_Cheeks2",
+      "index": 28,
+      "skipChance": 0.9,
+      "minTinv": 5,
+      "maxTinv": 20
+    }, {
+      "label": "FemaleHead_FrownLines",
+      "index": 29,
+      "skipChance": 0.9,
+      "minTinv": 5,
+      "maxTinv": 20
+    }, {
+      "label": "FemaleHeadHighElf_Lips",
+      "index": 30,
+      "skipChance": 0.7,
+      "minTinv": 10,
+      "maxTinv": 30
+    }, {
+      "label": "FemaleHeadHuman_Nose",
+      "index": 31,
+      "skipChance": 0.9,
+      "minTinv": 5,
+      "maxTinv": 20
+    }, {
+      "label": "FemaleHeadHuman_ForeHead",
+      "index": 32,
+      "skipChance": 0.9,
+      "minTinv": 5,
+      "maxTinv": 20
+    }, {
+      "label": "FemaleHeadHuman_Chin",
+      "index": 33,
+      "skipChance": 0.9,
+      "minTinv": 5,
+      "maxTinv": 20
+    }, {
+      "label": "FemaleHeadHuman_Neck",
+      "index": 34,
+      "skipChance": 0.9,
+      "minTinv": 5,
+      "maxTinv": 20
+    }, {
+      "label": "FemaleNordEyeLinerStyle_01",
+      "index": 35,
+      "skipChance": 0.99,
+      "minTinv": 1,
+      "maxTinv": 10
+    }, {
+      "label": "FemaleHeadWarPaint_01",
+      "index": 36,
+      "skipChance": 0.95,
+      "minTinv": 60,
+      "maxTinv": 100
+    }, {
+      "label": "FemaleHeadWarPaint_02",
+      "index": 37,
+      "skipChance": 0.95,
+      "minTinv": 60,
+      "maxTinv": 100
+    }, {
+      "label": "FemaleHeadWarPaint_03",
+      "index": 38,
+      "skipChance": 0.95,
+      "minTinv": 60,
+      "maxTinv": 100
+    }, {
+      "label": "FemaleHeadWarPaint_04",
+      "index": 39,
+      "skipChance": 0.95,
+      "minTinv": 60,
+      "maxTinv": 100
+    }, {
+      "label": "FemaleHeadWarPaint_05",
+      "index": 40,
+      "skipChance": 0.95,
+      "minTinv": 60,
+      "maxTinv": 100
+    }, {
+      "label": "FemaleHeadWarPaint_06",
+      "index": 41,
+      "skipChance": 0.95,
+      "minTinv": 60,
+      "maxTinv": 100
+    }, {
+      "label": "FemaleHeadWarPaint_07",
+      "index": 42,
+      "skipChance": 0.95,
+      "minTinv": 60,
+      "maxTinv": 100
+    }, {
+      "label": "FemaleHeadWarPaint_08",
+      "index": 43,
+      "skipChance": 0.95,
+      "minTinv": 60,
+      "maxTinv": 100
+    }, {
+      "label": "FemaleHeadWarPaint_09",
+      "index": 44,
+      "skipChance": 0.95,
+      "minTinv": 60,
+      "maxTinv": 100
+    }, {
+      "label": "FemaleHeadWarPaint_10",
+      "index": 45,
+      "skipChance": 0.95,
+      "minTinv": 60,
+      "maxTinv": 100
+    }, {
+      "label": "FemaleHeadDirt_01",
+      "index": 46,
+      "skipChance": 0.995,
+      "minTinv": 1,
+      "maxTinv": 10
+    }, {
+      "label": "FemaleHeadDirt_02",
+      "index": 47,
+      "skipChance": 0.995,
+      "minTinv": 1,
+      "maxTinv": 10
+    }, {
+      "label": "FemaleHeadDirt_03",
+      "index": 48,
+      "skipChance": 0.995,
+      "minTinv": 1,
+      "maxTinv": 10
+    }, {
+      "label": "FemaleHeadHighElfWarPaint_01",
+      "index": 51,
+      "skipChance": 0.95,
+      "minTinv": 60,
+      "maxTinv": 100
+    }, {
+      "label": "FemaleHeadHighElfWarPaint_02",
+      "index": 52,
+      "skipChance": 0.95,
+      "minTinv": 60,
+      "maxTinv": 100
+    }, {
+      "label": "FemaleHeadHighElfWarPaint_03",
+      "index": 53,
+      "skipChance": 0.95,
+      "minTinv": 60,
+      "maxTinv": 100
+    }, {
+      "label": "FemaleHeadHighElfWarPaint_04",
+      "index": 54,
+      "skipChance": 0.95,
+      "minTinv": 60,
+      "maxTinv": 100
+    }],
+    "male": [
+      {
+        "index": 0
+      }
+    ]
+  },
+  "DarkElfRace": {
+    "female": {
+
+    },
+    "male": {
+
+    }
+  },
+  "WoodElfRace": {
+    "female": [
+      {
+        "index": 0
+      }
+    ],
+    "male": [
+      {
+        "index": 0
+      }
+    ]
+  },
+  "BretonRace": {
+    "female": [
+      {
+        "index": 0
+      }
+    ],
+    "male": [
+      {
+        "index": 0
+      }
+    ]
+  },
+  "NordRace": {
+    "female": [
+      {
+        "index": 0
+      }
+    ],
+    "male": [
+      {
+        "index": 0
+      }
+    ]
+  },
+  "ImperialRace": {
+    "female": [
+      {
+        "index": 0
+      }
+    ],
+    "male": [
+      {
+        "index": 0
+      }
+    ]
+  },
+  "RedguardRace": {
+    "female": [
+      {
+        "index": 0
+      }
+    ],
+    "male": [
+      {
+        "index": 0
+      }
+    ]
+  },
+  "OrcRace": {
+    "female": [
+      {
+        "index": 0
+      }
+    ],
+    "male": [
+      {
+        "index": 0
+      }
+    ]
+  },
+  "KhajiitRace": {
+    "female": [
+      {
+        "index": 0
+      }
+    ],
+    "male": [
+      {
+        "index": 0
+      }
+    ]
+  },
+  "ArgonianRace": {
+    "female": [
+      {
+        "index": 0
+      }
+    ],
+    "male": [
+      {
+        "index": 0
+      }
+    ]
+  }
+}
