@@ -66,6 +66,7 @@ ngapp.service('npcHeadPartService', function(settingsService, progressService, p
     let releaseHeadParts = function(headParts) {
         Object.keys(headParts).forEach(function(key) {
             headParts[key].forEach(xelib.Release);
+            delete headParts[key];
         });
     };
 
