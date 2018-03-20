@@ -1,23 +1,17 @@
-ngapp.service('npcHeadPartService', function(settingsService, progressService, pluginInfoService) {
+ngapp.service('npcHeadPartService', function(settingsService, progressService, pluginInfoService, randomService) {
     let npcSettings = settingsService.settings.npcGeneration,
         validRaces = {},
         ignoreKeys = {},
         maleHeadParts = {},
         femaleHeadParts = {};
 
+    let randomCheck = randomService.randomCheck;
+
     let headPartNotFoundError = function(race, female, partType) {
         let gender = female ? 'Female' : 'Male',
             message = `No ${partType} found for ${gender} ${race}.`;
         if (npcSettings.headPartErrors) throw new Error(message);
         progressService.progressMessage(message);
-    };
-
-    let randomCheck = function(chance) {
-        return Math.random() < chance;
-    };
-
-    let newHeadPart = function(npc) {
-        return xelib.AddArrayItem(npc, 'Head Parts', '', '');
     };
 
     let getEditorIDs = function(rec, path) {
@@ -51,7 +45,8 @@ ngapp.service('npcHeadPartService', function(settingsService, progressService, p
         let headParts = getHeadParts(female, partType) || [],
             headPart = headParts.filter(matchesRace(race)).random();
         if (!headPart) return headPartNotFoundError(race, female, partType);
-        xelib.WithHandle(newHeadPart(npc), function(element) {
+        let newHeadPart = xelib.AddArrayItem(npc, 'Head Parts', '', '');
+        xelib.WithHandle(newHeadPart, function(element) {
             xelib.SetLinksTo(element, '', headPart);
         });
     };
@@ -68,20 +63,14 @@ ngapp.service('npcHeadPartService', function(settingsService, progressService, p
         return ignoreKeys[pnam];
     };
 
-    let unloadHeadParts = function(headParts) {
-        if (headParts.constructor === Array) {
-            headParts.forEach(xelib.Release);
-        } else {
-            Object.keys(headParts).forEach(function(key) {
-                unloadHeadParts(headParts[key]);
-                delete headParts[key];
-            });
-        }
+    let releaseHeadParts = function(headParts) {
+        Object.keys(headParts).forEach(function(key) {
+            headParts[key].forEach(xelib.Release);
+        });
     };
 
     // PUBLIC API
     this.loadHeadParts = function() {
-        unloadHeadParts({m: maleHeadParts, f: femaleHeadParts});
         xelib.WithEachHandle(xelib.GetElements(), function(file) {
             let headParts = xelib.GetRecords(file, 'HDPT'),
                 filename = xelib.Name(file),
@@ -94,6 +83,11 @@ ngapp.service('npcHeadPartService', function(settingsService, progressService, p
                 loadHeadPart(headPart, !male, pnam);
             });
         });
+    };
+
+    this.unloadHeadParts = function() {
+        releaseHeadParts(maleHeadParts);
+        releaseHeadParts(femaleHeadParts);
     };
 
     this.generateHeadParts = function(npc, race, female) {
