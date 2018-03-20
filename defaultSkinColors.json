@@ -1,0 +1,214 @@
+{
+  "HighElfRace": {
+    "skipChance": 0.33,
+    "base": {
+      "Red": "179",
+      "Green": "166",
+      "Blue": "106"
+    },
+    "colorGroup": "HighElf",
+    "female": {
+      "index": 24,
+      "search": "HighElfSkinFemale",
+      "minTinv": 30,
+      "maxTinv": 90
+    },
+    "male": {
+      "index": 5,
+      "search": "HighElfSkin0",
+      "minTinv": 30,
+      "maxTinv": 90
+    }
+  },
+  "DarkElfRace": {
+    "skipChance": 0,
+    "base": {
+      "Red": "133",
+      "Green": "154",
+      "Blue": "163"
+    },
+    "colorGroup": "DarkElf",
+    "female": {
+      "index": 24,
+      "search": "DarkElfSkinFemale",
+      "minTinv": 40,
+      "maxTinv": 100
+    },
+    "male": {
+      "index": 1,
+      "search": "DarkElfSkin0",
+      "minTinv": 40,
+      "maxTinv": 100
+    }
+  },
+  "WoodElfRace": {
+    "skipChance": 0,
+    "base": {
+      "Red": "149",
+      "Green": "129",
+      "Blue": "111"
+    },
+    "colorGroup": "Woodelf",
+    "female": {
+      "index": 24,
+      "search": "WoodElfSkinFemale",
+      "minTinv": 40,
+      "maxTinv": 100
+    },
+    "male": {
+      "index": 1,
+      "search": "WoodElfSkin0",
+      "minTinv": 50,
+      "maxTinv": 100
+    }
+  },
+  "BretonRace": {
+    "skipChance": 0,
+    "base": {
+      "Red": "185",
+      "Green": "179",
+      "Blue": "170"
+    },
+    "colorGroup": "Human",
+    "female": {
+      "index": 16,
+      "search": "HumanFemaleSkinWhite",
+      "minTinv": 40,
+      "maxTinv": 100
+    },
+    "male": {
+      "index": 2,
+      "search": "HumanSkinBaseWhite",
+      "minTinv": 40,
+      "maxTinv": 100
+    }
+  },
+  "NordRace": {
+    "skipChance": 0,
+    "base": {
+      "Red": "167",
+      "Green": "134",
+      "Blue": "122"
+    },
+    "colorGroup": "Human",
+    "female": {
+      "index": 24,
+      "search": "HumanFemaleSkinWhite",
+      "minTinv": 40,
+      "maxTinv": 100
+    },
+    "male": {
+      "index": 1,
+      "search": "HumanSkinBaseWhite",
+      "minTinv": 40,
+      "maxTinv": 100
+    }
+  },
+  "ImperialRace": {
+    "skipChance": 0,
+    "base": {
+      "Red": "155",
+      "Green": "139",
+      "Blue": "132"
+    },
+    "colorGroup": "Human",
+    "female": {
+      "index": 13,
+      "search": "HumanFemaleSkinWhite",
+      "minTinv": 40,
+      "maxTinv": 100
+    },
+    "male": {
+      "index": 1,
+      "search": "HumanSkinBaseWhite",
+      "minTinv": 40,
+      "maxTinv": 100
+    }
+  },
+  "RedguardRace": {
+    "skipChance": 0,
+    "base": {
+      "Red": "81",
+      "Green": "61",
+      "Blue": "53"
+    },
+    "colorGroup": "Human",
+    "female": {
+      "index": 23,
+      "search": "HumanSkinDark",
+      "minTinv": 50,
+      "maxTinv": 100
+    },
+    "male": {
+      "index": 1,
+      "search": "HumanSkinDark",
+      "minTinv": 40,
+      "maxTinv": 100
+    }
+  },
+  "OrcRace": {
+    "skipChance": 0,
+    "base": {
+      "Red": "94",
+      "Green": "138",
+      "Blue": "124"
+    },
+    "colorGroup": "Orc",
+    "female": {
+      "index": 13,
+      "search": "OrcSkinFemale",
+      "minTinv": 30,
+      "maxTinv": 100
+    },
+    "male": {
+      "index": 1,
+      "search": "OrcSkin0",
+      "minTinv": 30,
+      "maxTinv": 100
+    }
+  },
+  "KhajiitRace": {
+    "skipChance": 0.4,
+    "base": {
+      "Red": "212",
+      "Green": "212",
+      "Blue": "212"
+    },
+    "colorGroup": "Tint",
+    "female": {
+      "index": 4,
+      "search": "",
+      "minTinv": 5,
+      "maxTinv": 20
+    },
+    "male": {
+      "index": 1,
+      "search": "",
+      "minTinv": 5,
+      "maxTinv": 20
+    }
+  },
+  "ArgonianRace": {
+    "skipChance": 0.4,
+    "base": {
+      "Red": "127",
+      "Green": "127",
+      "Blue": "63"
+    },
+    "colorGroup": "Tint",
+    "female": {
+      "index": 16,
+      "additionalIndexes": [32],
+      "search": "",
+      "minTinv": 8,
+      "maxTinv": 33
+    },
+    "male": {
+      "index": 38,
+      "additionalIndexes": [27],
+      "search": "",
+      "minTinv": 8,
+      "maxTinv": 33
+    }
+  }
+}

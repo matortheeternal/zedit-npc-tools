@@ -12,6 +12,7 @@ ngapp.run(function(settingsService) {
         controller: 'npcGenerationSettingsController',
         defaultSettings: {
             names: fh.loadJsonFile(`${modulePath}/defaultNames.json`),
+            skinColors: fh.loadJsonFile(`${modulePath}/defaultSkinColors.json`),
             facialHairChance: 0.4,
             scarChance: 0.15,
             headPartErrors: false,
