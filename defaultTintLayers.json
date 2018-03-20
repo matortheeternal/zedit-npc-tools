@@ -1,281 +1,3883 @@
 {
   "HighElfRace": {
-    "female": [{
-      "label": "FemaleUpperEyeSocket",
-      "index": 25,
-      "skipChance": 0.9,
-      "minTinv": 5,
-      "maxTinv": 20
-    }, {
-      "label": "FemaleLowerEyeSocket",
-      "index": 26,
-      "skipChance": 0.9,
-      "minTinv": 5,
-      "maxTinv": 20
-    }, {
-      "label": "FemaleHead_Cheeks",
-      "index": 27,
-      "skipChance": 0.9,
-      "minTinv": 5,
-      "maxTinv": 20
-    }, {
-      "label": "FemaleHead_Cheeks2",
-      "index": 28,
-      "skipChance": 0.9,
-      "minTinv": 5,
-      "maxTinv": 20
-    }, {
-      "label": "FemaleHead_FrownLines",
-      "index": 29,
-      "skipChance": 0.9,
-      "minTinv": 5,
-      "maxTinv": 20
-    }, {
-      "label": "FemaleHeadHighElf_Lips",
-      "index": 30,
-      "skipChance": 0.7,
-      "minTinv": 10,
-      "maxTinv": 30
-    }, {
-      "label": "FemaleHeadHuman_Nose",
-      "index": 31,
-      "skipChance": 0.9,
-      "minTinv": 5,
-      "maxTinv": 20
-    }, {
-      "label": "FemaleHeadHuman_ForeHead",
-      "index": 32,
-      "skipChance": 0.9,
-      "minTinv": 5,
-      "maxTinv": 20
-    }, {
-      "label": "FemaleHeadHuman_Chin",
-      "index": 33,
-      "skipChance": 0.9,
-      "minTinv": 5,
-      "maxTinv": 20
-    }, {
-      "label": "FemaleHeadHuman_Neck",
-      "index": 34,
-      "skipChance": 0.9,
-      "minTinv": 5,
-      "maxTinv": 20
-    }, {
-      "label": "FemaleNordEyeLinerStyle_01",
-      "index": 35,
-      "skipChance": 0.99,
-      "minTinv": 1,
-      "maxTinv": 10
-    }, {
-      "label": "FemaleHeadWarPaint_01",
-      "index": 36,
-      "skipChance": 0.95,
-      "minTinv": 60,
-      "maxTinv": 100
-    }, {
-      "label": "FemaleHeadWarPaint_02",
-      "index": 37,
-      "skipChance": 0.95,
-      "minTinv": 60,
-      "maxTinv": 100
-    }, {
-      "label": "FemaleHeadWarPaint_03",
-      "index": 38,
-      "skipChance": 0.95,
-      "minTinv": 60,
-      "maxTinv": 100
-    }, {
-      "label": "FemaleHeadWarPaint_04",
-      "index": 39,
-      "skipChance": 0.95,
-      "minTinv": 60,
-      "maxTinv": 100
-    }, {
-      "label": "FemaleHeadWarPaint_05",
-      "index": 40,
-      "skipChance": 0.95,
-      "minTinv": 60,
-      "maxTinv": 100
-    }, {
-      "label": "FemaleHeadWarPaint_06",
-      "index": 41,
-      "skipChance": 0.95,
-      "minTinv": 60,
-      "maxTinv": 100
-    }, {
-      "label": "FemaleHeadWarPaint_07",
-      "index": 42,
-      "skipChance": 0.95,
-      "minTinv": 60,
-      "maxTinv": 100
-    }, {
-      "label": "FemaleHeadWarPaint_08",
-      "index": 43,
-      "skipChance": 0.95,
-      "minTinv": 60,
-      "maxTinv": 100
-    }, {
-      "label": "FemaleHeadWarPaint_09",
-      "index": 44,
-      "skipChance": 0.95,
-      "minTinv": 60,
-      "maxTinv": 100
-    }, {
-      "label": "FemaleHeadWarPaint_10",
-      "index": 45,
-      "skipChance": 0.95,
-      "minTinv": 60,
-      "maxTinv": 100
-    }, {
-      "label": "FemaleHeadDirt_01",
-      "index": 46,
-      "skipChance": 0.995,
-      "minTinv": 1,
-      "maxTinv": 10
-    }, {
-      "label": "FemaleHeadDirt_02",
-      "index": 47,
-      "skipChance": 0.995,
-      "minTinv": 1,
-      "maxTinv": 10
-    }, {
-      "label": "FemaleHeadDirt_03",
-      "index": 48,
-      "skipChance": 0.995,
-      "minTinv": 1,
-      "maxTinv": 10
-    }, {
-      "label": "FemaleHeadHighElfWarPaint_01",
-      "index": 51,
-      "skipChance": 0.95,
-      "minTinv": 60,
-      "maxTinv": 100
-    }, {
-      "label": "FemaleHeadHighElfWarPaint_02",
-      "index": 52,
-      "skipChance": 0.95,
-      "minTinv": 60,
-      "maxTinv": 100
-    }, {
-      "label": "FemaleHeadHighElfWarPaint_03",
-      "index": 53,
-      "skipChance": 0.95,
-      "minTinv": 60,
-      "maxTinv": 100
-    }, {
-      "label": "FemaleHeadHighElfWarPaint_04",
-      "index": 54,
-      "skipChance": 0.95,
-      "minTinv": 60,
-      "maxTinv": 100
-    }],
-    "male": [
-      {
-        "index": 0
-      }
-    ]
-  },
-  "DarkElfRace": {
-    "female": {
-
-    },
-    "male": {
-
-    }
-  },
-  "WoodElfRace": {
     "female": [
       {
-        "index": 0
+        "label": "FemaleUpperEyeSocket",
+        "index": 25,
+        "skipChance": 0.9,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleLowerEyeSocket",
+        "index": 26,
+        "skipChance": 0.9,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleHead_Cheeks",
+        "index": 27,
+        "skipChance": 0.9,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleHead_Cheeks2",
+        "index": 28,
+        "skipChance": 0.9,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleHead_FrownLines",
+        "index": 29,
+        "skipChance": 0.9,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleHeadHighElf_Lips",
+        "index": 30,
+        "skipChance": 0.7,
+        "minTinv": 10,
+        "maxTinv": 30
+      },
+      {
+        "label": "FemaleHeadHuman_Nose",
+        "index": 31,
+        "skipChance": 0.9,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleHeadHuman_ForeHead",
+        "index": 32,
+        "skipChance": 0.9,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleHeadHuman_Chin",
+        "index": 33,
+        "skipChance": 0.9,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleHeadHuman_Neck",
+        "index": 34,
+        "skipChance": 0.9,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleNordEyeLinerStyle_01",
+        "index": 35,
+        "skipChance": 0.99,
+        "minTinv": 1,
+        "maxTinv": 10
+      },
+      {
+        "label": "FemaleHeadWarPaint_01",
+        "index": 36,
+        "skipChance": 0.95,
+        "minTinv": 60,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_02",
+        "index": 37,
+        "skipChance": 0.95,
+        "minTinv": 60,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_03",
+        "index": 38,
+        "skipChance": 0.95,
+        "minTinv": 60,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_04",
+        "index": 39,
+        "skipChance": 0.95,
+        "minTinv": 60,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_05",
+        "index": 40,
+        "skipChance": 0.95,
+        "minTinv": 60,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_06",
+        "index": 41,
+        "skipChance": 0.95,
+        "minTinv": 60,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_07",
+        "index": 42,
+        "skipChance": 0.95,
+        "minTinv": 60,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_08",
+        "index": 43,
+        "skipChance": 0.95,
+        "minTinv": 60,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_09",
+        "index": 44,
+        "skipChance": 0.95,
+        "minTinv": 60,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_10",
+        "index": 45,
+        "skipChance": 0.95,
+        "minTinv": 60,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadDirt_01",
+        "index": 46,
+        "skipChance": 0.995,
+        "minTinv": 1,
+        "maxTinv": 10
+      },
+      {
+        "label": "FemaleHeadDirt_02",
+        "index": 47,
+        "skipChance": 0.995,
+        "minTinv": 1,
+        "maxTinv": 10
+      },
+      {
+        "label": "FemaleHeadDirt_03",
+        "index": 48,
+        "skipChance": 0.995,
+        "minTinv": 1,
+        "maxTinv": 10
+      },
+      {
+        "label": "FemaleHeadHighElfWarPaint_01",
+        "index": 51,
+        "skipChance": 0.95,
+        "minTinv": 60,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadHighElfWarPaint_02",
+        "index": 52,
+        "skipChance": 0.95,
+        "minTinv": 60,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadHighElfWarPaint_03",
+        "index": 53,
+        "skipChance": 0.95,
+        "minTinv": 60,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadHighElfWarPaint_04",
+        "index": 54,
+        "skipChance": 0.95,
+        "minTinv": 60,
+        "maxTinv": 100
       }
     ],
     "male": [
       {
-        "index": 0
+        "label": "MaleUpperEyeSocket",
+        "index": 2,
+        "skipChance": 0.9,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleLowerEyeSocket",
+        "index": 3,
+        "skipChance": 0.9,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "RedGuardMaleEyeLinerStyle_01",
+        "index": 4,
+        "skipChance": 0.85,
+        "minTinv": 5,
+        "maxTinv": 25
+      },
+      {
+        "label": "MaleHead_Cheeks",
+        "index": 5,
+        "skipChance": 0.9,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHead_Cheeks2",
+        "index": 6,
+        "skipChance": 0.9,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHead_FrownLines",
+        "index": 7,
+        "skipChance": 0.9,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHeadNord_Lips",
+        "index": 8,
+        "skipChance": 0.7,
+        "minTinv": 10,
+        "maxTinv": 50
+      },
+      {
+        "label": "MaleHead_Nose",
+        "index": 9,
+        "skipChance": 0.9,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHeadHuman_ForeHead",
+        "index": 10,
+        "skipChance": 0.9,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHeadHuman_Chin",
+        "index": 11,
+        "skipChance": 0.9,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHeadHuman_Neck",
+        "index": 12,
+        "skipChance": 0.9,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHeadWarPaint_01",
+        "index": 13,
+        "skipChance": 0.96,
+        "minTinv": 60,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_02",
+        "index": 14,
+        "skipChance": 0.96,
+        "minTinv": 60,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_03",
+        "index": 15,
+        "skipChance": 0.96,
+        "minTinv": 60,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_04",
+        "index": 16,
+        "skipChance": 0.96,
+        "minTinv": 60,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_05",
+        "index": 17,
+        "skipChance": 0.96,
+        "minTinv": 60,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_06",
+        "index": 18,
+        "skipChance": 0.96,
+        "minTinv": 60,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_07",
+        "index": 19,
+        "skipChance": 0.96,
+        "minTinv": 60,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_08",
+        "index": 20,
+        "skipChance": 0.96,
+        "minTinv": 60,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_09",
+        "index": 21,
+        "skipChance": 0.96,
+        "minTinv": 60,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_10",
+        "index": 22,
+        "skipChance": 0.96,
+        "minTinv": 60,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadDirt_01",
+        "index": 23,
+        "skipChance": 0.995,
+        "minTinv": 1,
+        "maxTinv": 10
+      },
+      {
+        "label": "MaleHeadDirt_02",
+        "index": 49,
+        "skipChance": 0.995,
+        "minTinv": 1,
+        "maxTinv": 10
+      },
+      {
+        "label": "MaleHeadDirt_03",
+        "index": 50,
+        "skipChance": 0.995,
+        "minTinv": 1,
+        "maxTinv": 10
+      }
+    ]
+  },
+  "DarkElfRace": {
+    "female": [
+      {
+        "label": "FemaleUpperEyeSocket",
+        "index": 25,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleLowerEyeSocket",
+        "index": 26,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleHead_Cheeks",
+        "index": 27,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleHead_Cheeks2",
+        "index": 28,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleHead_FrownLines",
+        "index": 29,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleHeadDarkElf_Lips",
+        "index": 30,
+        "skipChance": 0.40,
+        "minTinv": 50,
+        "maxTinv": 90
+      },
+      {
+        "label": "FemaleHeadHuman_Nose",
+        "index": 31,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleHeadHuman_ForeHead",
+        "index": 32,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleHeadHuman_Chin",
+        "index": 33,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleHeadHuman_Neck",
+        "index": 34,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleNordEyeLinerStyle_01",
+        "index": 35,
+        "skipChance": 0.99,
+        "minTinv": 1,
+        "maxTinv": 10
+      },
+      {
+        "label": "FemaleHeadWarPaint_01",
+        "index": 36,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_02",
+        "index": 37,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_03",
+        "index": 38,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_04",
+        "index": 39,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_05",
+        "index": 40,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_06",
+        "index": 41,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_07",
+        "index": 42,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_08",
+        "index": 43,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_09",
+        "index": 44,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_10",
+        "index": 45,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadDirt_01",
+        "index": 46,
+        "skipChance": 0.995,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadDarkElfWarPaint_01",
+        "index": 47,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadDarkElfWarPaint_02",
+        "index": 48,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadDarkElfWarPaint_03",
+        "index": 49,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadDarkElfWarPaint_04",
+        "index": 50,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadDarkElfWarPaint_05",
+        "index": 51,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadDirt_02",
+        "index": 59,
+        "skipChance": 0.995,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadDirt_03",
+        "index": 60,
+        "skipChance": 0.995,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadBothiahTattoo_01",
+        "index": 62,
+        "skipChance": 0.995,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleDarkElfWarPaint_06",
+        "index": 64,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      }
+    ],
+    "male": [
+      {
+        "label": "MaleUpperEyeSocket",
+        "index": 2,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleLowerEyeSocket",
+        "index": 3,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "RedGuardMaleEyeLinerStyle_01",
+        "index": 4,
+        "skipChance": 0.100,
+        "minTinv": 1,
+        "maxTinv": 10
+      },
+      {
+        "label": "MaleHead_Cheeks",
+        "index": 5,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHead_Cheeks2",
+        "index": 6,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHead_FrownLines",
+        "index": 7,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHeadNord_Lips",
+        "index": 8,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHead_Nose",
+        "index": 9,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHeadHuman_ForeHead",
+        "index": 10,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHeadHuman_Chin",
+        "index": 11,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHeadHuman_Neck",
+        "index": 12,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHeadWarPaint_01",
+        "index": 13,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_02",
+        "index": 14,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_03",
+        "index": 15,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_04",
+        "index": 16,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_05",
+        "index": 17,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_06",
+        "index": 18,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_07",
+        "index": 19,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_08",
+        "index": 20,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_09",
+        "index": 21,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_10",
+        "index": 22,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadDarkElfWarPaint_01",
+        "index": 52,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadDarkElfWarPaint_02",
+        "index": 53,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadDarkElfWarPaint_03",
+        "index": 54,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadDarkElfWarPaint_04",
+        "index": 55,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadDarkElfWarPaint_05",
+        "index": 56,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadDarkElfWarPaint_06",
+        "index": 61,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadBothiahTattoo_01",
+        "index": 63,
+        "skipChance": 0.100,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadDirt_01",
+        "index": 23,
+        "skipChance": 0.100,
+        "minTinv": 1,
+        "maxTinv": 10
+      },
+      {
+        "label": "MaleHeadDirt_02",
+        "index": 57,
+        "skipChance": 0.100,
+        "minTinv": 1,
+        "maxTinv": 10
+      },
+      {
+        "label": "MaleHeadDirt_03",
+        "index": 58,
+        "skipChance": 0.100,
+        "minTinv": 1,
+        "maxTinv": 10
+      }
+    ]
+  },
+  "WoodElfRace": {
+    "female": [
+      {
+        "label": "FemaleUpperEyeSocket",
+        "index": 25,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleLowerEyeSocket",
+        "index": 26,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleHead_Cheeks",
+        "index": 27,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleHead_Cheeks2",
+        "index": 28,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleHead_FrownLines",
+        "index": 29,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleHeadWoodElf_Lips",
+        "index": 30,
+        "skipChance": 0.30,
+        "minTinv": 20,
+        "maxTinv": 90
+      },
+      {
+        "label": "FemaleHeadHuman_Nose",
+        "index": 31,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleHeadHuman_ForeHead",
+        "index": 32,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleHeadHuman_Chin",
+        "index": 33,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleHeadHuman_Neck",
+        "index": 34,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleNordEyeLinerStyle_01",
+        "index": 35,
+        "skipChance": 0.100,
+        "minTinv": 1,
+        "maxTinv": 10
+      },
+      {
+        "label": "FemaleHeadWarPaint_01",
+        "index": 36,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_02",
+        "index": 37,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_03",
+        "index": 38,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_04",
+        "index": 39,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_05",
+        "index": 40,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_06",
+        "index": 41,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_07",
+        "index": 42,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_08",
+        "index": 43,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_09",
+        "index": 44,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_10",
+        "index": 45,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadDirt_01",
+        "index": 46,
+        "skipChance": 0.100,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWoodElfWarPaint_01",
+        "index": 47,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWoodElfWarPaint_02",
+        "index": 48,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWoodElfWarPaint_03",
+        "index": 49,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWoodElfWarPaint_04",
+        "index": 50,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWoodElfWarPaint_05",
+        "index": 51,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadDirt_02",
+        "index": 54,
+        "skipChance": 0.100,
+        "minTinv": 1,
+        "maxTinv": 10
+      },
+      {
+        "label": "FemaleHeadDirt_03",
+        "index": 55,
+        "skipChance": 0.100,
+        "minTinv": 1,
+        "maxTinv": 10
+      }
+    ],
+    "male": [
+      {
+        "label": "MaleUpperEyeSocket",
+        "index": 2,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleLowerEyeSocket",
+        "index": 3,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "RedGuardMaleEyeLinerStyle_01",
+        "index": 4,
+        "skipChance": 0.100,
+        "minTinv": 1,
+        "maxTinv": 10
+      },
+      {
+        "label": "MaleHead_Cheeks",
+        "index": 5,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHead_Cheeks2",
+        "index": 6,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHead_FrownLines",
+        "index": 7,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHeadNord_Lips",
+        "index": 8,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHead_Nose",
+        "index": 9,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHeadHuman_ForeHead",
+        "index": 10,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHeadHuman_Chin",
+        "index": 11,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHeadHuman_Neck",
+        "index": 12,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHeadWarPaint_01",
+        "index": 13,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_02",
+        "index": 14,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_03",
+        "index": 15,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_04",
+        "index": 16,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_05",
+        "index": 17,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_06",
+        "index": 18,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_07",
+        "index": 19,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_08",
+        "index": 20,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_09",
+        "index": 21,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_10",
+        "index": 22,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadDirt_01",
+        "index": 23,
+        "skipChance": 0.100,
+        "minTinv": 1,
+        "maxTinv": 10
+      },
+      {
+        "label": "MaleHeadDirt_02",
+        "index": 52,
+        "skipChance": 0.100,
+        "minTinv": 1,
+        "maxTinv": 10
+      },
+      {
+        "label": "MaleHeadDirt_03",
+        "index": 53,
+        "skipChance": 0.100,
+        "minTinv": 1,
+        "maxTinv": 10
+      },
+      {
+        "label": "MaleHeadWoodElfWarPaint_01",
+        "index": 56,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWoodElfWarPaint_02",
+        "index": 57,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWoodElfWarPaint_03",
+        "index": 58,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWoodElfWarPaint_04",
+        "index": 59,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWoodElfWarPaint_05",
+        "index": 60,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
       }
     ]
   },
   "BretonRace": {
     "female": [
       {
-        "index": 0
+        "label": "FemaleUpperEyeSocket",
+        "index": 34,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleLowerEyeSocket",
+        "index": 35,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleHead_Cheeks",
+        "index": 36,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleHead_Cheeks2",
+        "index": 37,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleHead_FrownLines",
+        "index": 38,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleHeadRedguard_Lips",
+        "index": 39,
+        "skipChance": 0.30,
+        "minTinv": 30,
+        "maxTinv": 80
+      },
+      {
+        "label": "FemaleHeadHuman_Nose",
+        "index": 40,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleHeadHuman_ForeHead",
+        "index": 41,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleHeadHuman_Chin",
+        "index": 42,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleHeadHuman_Neck",
+        "index": 43,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleNordEyeLinerStyle_01",
+        "index": 44,
+        "skipChance": 0.70,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleHeadWarPaint_01",
+        "index": 45,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_02",
+        "index": 46,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_03",
+        "index": 47,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_04",
+        "index": 48,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_05",
+        "index": 49,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_06",
+        "index": 50,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_07",
+        "index": 51,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_08",
+        "index": 52,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_09",
+        "index": 53,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_10",
+        "index": 54,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadDirt_01",
+        "index": 55,
+        "skipChance": 0.100,
+        "minTinv": 1,
+        "maxTinv": 10
+      },
+      {
+        "label": "FemaleHeadRedguardWarPaint_01",
+        "index": 56,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadRedguardWarPaint_02",
+        "index": 57,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadRedguardWarPaint_03",
+        "index": 58,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadRedguardWarPaint_04",
+        "index": 59,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadRedguardWarPaint_05",
+        "index": 60,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadDirt_02",
+        "index": 61,
+        "skipChance": 0.100,
+        "minTinv": 1,
+        "maxTinv": 10
+      },
+      {
+        "label": "FemaleHeadDirt_03",
+        "index": 62,
+        "skipChance": 0.100,
+        "minTinv": 1,
+        "maxTinv": 10
+      },
+      {
+        "label": "FemaleHeadBothiahTattoo_01",
+        "index": 70,
+        "skipChance": 0.100,
+        "minTinv": 1,
+        "maxTinv": 10
       }
     ],
     "male": [
       {
-        "index": 0
+        "label": "MaleUpperEyeSocket",
+        "index": 11,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleLowerEyeSocket",
+        "index": 12,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "RedGuardMaleEyeLinerStyle_01",
+        "index": 13,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHead_Cheeks",
+        "index": 14,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHead_Cheeks2",
+        "index": 15,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHead_FrownLines",
+        "index": 16,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHeadRedguard_Lips",
+        "index": 17,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHead_Nose",
+        "index": 18,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHeadHuman_ForeHead",
+        "index": 19,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHeadHuman_Chin",
+        "index": 20,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHeadHuman_Neck",
+        "index": 21,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHeadWarPaint_02",
+        "index": 22,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_01",
+        "index": 24,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_03",
+        "index": 25,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_04",
+        "index": 26,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_05",
+        "index": 27,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_06",
+        "index": 28,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_07",
+        "index": 29,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_08",
+        "index": 31,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_09",
+        "index": 30,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_10",
+        "index": 32,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadDirt_01",
+        "index": 33,
+        "skipChance": 0.100,
+        "minTinv": 1,
+        "maxTinv": 10
+      },
+      {
+        "label": "MaleHeadDirt_02",
+        "index": 63,
+        "skipChance": 0.100,
+        "minTinv": 1,
+        "maxTinv": 10
+      },
+      {
+        "label": "MaleHeadDirt_03",
+        "index": 64,
+        "skipChance": 0.100,
+        "minTinv": 1,
+        "maxTinv": 10
+      },
+      {
+        "label": "MaleHeadRedguardWarPaint_01",
+        "index": 65,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadRedguardWarPaint_02",
+        "index": 66,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadRedguardWarPaint_03",
+        "index": 67,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadRedguardWarPaint_04",
+        "index": 68,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadRedguardWarPaint_05",
+        "index": 69,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadBothiahTattoo_01",
+        "index": 71,
+        "skipChance": 0.100,
+        "minTinv": 1,
+        "maxTinv": 10
       }
     ]
   },
   "NordRace": {
     "female": [
       {
-        "index": 0
+        "label": "FemaleUpperEyeSocket",
+        "index": 26,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleLowerEyeSocket",
+        "index": 27,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleHead_Cheeks",
+        "index": 28,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleHead_Cheeks2",
+        "index": 29,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleHead_FrownLines",
+        "index": 30,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleHeadHighElf_Lips",
+        "index": 31,
+        "skipChance": 0.30,
+        "minTinv": 20,
+        "maxTinv": 80
+      },
+      {
+        "label": "FemaleHeadHuman_Nose",
+        "index": 32,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleHeadHuman_ForeHead",
+        "index": 33,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleHeadHuman_Chin",
+        "index": 34,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleHeadHuman_Neck",
+        "index": 35,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleNordEyeLinerStyle_01",
+        "index": 36,
+        "skipChance": 0.70,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleHeadWarPaint_01",
+        "index": 44,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_02",
+        "index": 45,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_03",
+        "index": 46,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_04",
+        "index": 47,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_05",
+        "index": 48,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_06",
+        "index": 49,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_07",
+        "index": 50,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_08",
+        "index": 51,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_09",
+        "index": 52,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_10",
+        "index": 53,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadDirt_01",
+        "index": 54,
+        "skipChance": 0.100,
+        "minTinv": 1,
+        "maxTinv": 10
+      },
+      {
+        "label": "FemaleHeadNordWarPaint_01",
+        "index": 55,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadNordWarPaint_02",
+        "index": 56,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadNordWarPaint_03",
+        "index": 57,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadNordWarPaint_04",
+        "index": 58,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadNordWarPaint_05",
+        "index": 59,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadDirt_02",
+        "index": 65,
+        "skipChance": 0.100,
+        "minTinv": 1,
+        "maxTinv": 10
+      },
+      {
+        "label": "FemaleHeadDirt_03",
+        "index": 66,
+        "skipChance": 0.100,
+        "minTinv": 1,
+        "maxTinv": 10
+      },
+      {
+        "label": "FemaleHeadBothiahTattoo_01",
+        "index": 70,
+        "skipChance": 0.100,
+        "minTinv": 1,
+        "maxTinv": 10
+      },
+      {
+        "label": "FemaleHeadBlackBloodTattoo_01",
+        "index": 73,
+        "skipChance": 0.100,
+        "minTinv": 1,
+        "maxTinv": 10
+      },
+      {
+        "label": "FemaleHeadBlackBloodTattoo_02",
+        "index": 74,
+        "skipChance": 0.100,
+        "minTinv": 1,
+        "maxTinv": 10
       }
     ],
     "male": [
       {
-        "index": 0
+        "label": "MaleUpperEyeSocket",
+        "index": 2,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleLowerEyeSocket",
+        "index": 3,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "RedGuardMaleEyeLinerStyle_01",
+        "index": 4,
+        "skipChance": 0.100,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHead_Cheeks",
+        "index": 5,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHead_Cheeks2",
+        "index": 6,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHead_FrownLines",
+        "index": 7,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHeadNord_Lips",
+        "index": 8,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHead_Nose",
+        "index": 9,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHeadHuman_ForeHead",
+        "index": 10,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHeadHuman_Chin",
+        "index": 11,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHeadHuman_Neck",
+        "index": 12,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHead_Frekles_01",
+        "index": 17,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "RedGuardMaleEyeLinerStyle_01",
+        "index": 19,
+        "skipChance": 0.100,
+        "minTinv": 1,
+        "maxTinv": 10
+      },
+      {
+        "label": "MaleHeadWarPaint_02",
+        "index": 21,
+        "skipChance": 0.95,
+        "minTinv": 40,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadDirt_01",
+        "index": 25,
+        "skipChance": 0.100,
+        "minTinv": 1,
+        "maxTinv": 10
+      },
+      {
+        "label": "MaleHeadWarPaint_03",
+        "index": 37,
+        "skipChance": 0.95,
+        "minTinv": 40,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_04",
+        "index": 38,
+        "skipChance": 0.95,
+        "minTinv": 40,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_05",
+        "index": 39,
+        "skipChance": 0.95,
+        "minTinv": 40,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_06",
+        "index": 40,
+        "skipChance": 0.95,
+        "minTinv": 40,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_07",
+        "index": 41,
+        "skipChance": 0.95,
+        "minTinv": 40,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_08",
+        "index": 42,
+        "skipChance": 0.95,
+        "minTinv": 40,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_09",
+        "index": 23,
+        "skipChance": 0.95,
+        "minTinv": 40,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_10",
+        "index": 43,
+        "skipChance": 0.95,
+        "minTinv": 40,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadNordWarPaint_01",
+        "index": 60,
+        "skipChance": 0.95,
+        "minTinv": 40,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadNordWarPaint_02",
+        "index": 61,
+        "skipChance": 0.95,
+        "minTinv": 40,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadNordWarPaint_03",
+        "index": 62,
+        "skipChance": 0.95,
+        "minTinv": 40,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadNordWarPaint_04",
+        "index": 63,
+        "skipChance": 0.95,
+        "minTinv": 40,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadNordWarPaint_05",
+        "index": 64,
+        "skipChance": 0.95,
+        "minTinv": 40,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadDirt_02",
+        "index": 67,
+        "skipChance": 0.100,
+        "minTinv": 1,
+        "maxTinv": 10
+      },
+      {
+        "label": "MaleHeadDirt_03",
+        "index": 68,
+        "skipChance": 0.100,
+        "minTinv": 1,
+        "maxTinv": 10
+      },
+      {
+        "label": "MaleHeadBothiahTattoo_01",
+        "index": 69,
+        "skipChance": 0.100,
+        "minTinv": 1,
+        "maxTinv": 10
+      },
+      {
+        "label": "MaleHeadBlackBloodTattoo_01",
+        "index": 71,
+        "skipChance": 0.100,
+        "minTinv": 1,
+        "maxTinv": 10
+      },
+      {
+        "label": "MaleHeadBlackBloodTattoo_02",
+        "index": 72,
+        "skipChance": 0.100,
+        "minTinv": 1,
+        "maxTinv": 10
       }
     ]
   },
   "ImperialRace": {
     "female": [
       {
-        "index": 0
+        "label": "FemaleUpperEyeSocket",
+        "index": 26,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleLowerEyeSocket",
+        "index": 27,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleHead_FrownLines",
+        "index": 28,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleHeadHuman_Nose",
+        "index": 29,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleHeadHuman_ForeHead",
+        "index": 30,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleHeadHuman_Chin",
+        "index": 31,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleHeadHuman_Neck",
+        "index": 32,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleNordEyeLinerStyle_01",
+        "index": 33,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleHeadImperial_Lips",
+        "index": 34,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleHead_Cheeks",
+        "index": 35,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleHead_Cheeks2",
+        "index": 36,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleHeadWarPaint_01",
+        "index": 37,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_02",
+        "index": 38,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_03",
+        "index": 39,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_04",
+        "index": 40,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_05",
+        "index": 41,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_06",
+        "index": 42,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_07",
+        "index": 43,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_08",
+        "index": 44,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_09",
+        "index": 45,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_10",
+        "index": 46,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadDirt_01",
+        "index": 47,
+        "skipChance": 0.100,
+        "minTinv": 1,
+        "maxTinv": 10
+      },
+      {
+        "label": "FemaleHeadImperialWarPaint_01",
+        "index": 48,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadImperialWarPaint_02",
+        "index": 49,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadImperialWarPaint_03",
+        "index": 50,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadImperialWarPaint_04",
+        "index": 51,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadImperialWarPaint_05",
+        "index": 52,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadDirt_02",
+        "index": 59,
+        "skipChance": 0.100,
+        "minTinv": 1,
+        "maxTinv": 10
+      },
+      {
+        "label": "FemaleHeadDirt_03",
+        "index": 60,
+        "skipChance": 0.100,
+        "minTinv": 1,
+        "maxTinv": 10
       }
     ],
     "male": [
       {
-        "index": 0
+        "label": "MaleUpperEyeSocket",
+        "index": 2,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleLowerEyeSocket",
+        "index": 3,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "RedGuardMaleEyeLinerStyle_01",
+        "index": 4,
+        "skipChance": 0.100,
+        "minTinv": 1,
+        "maxTinv": 10
+      },
+      {
+        "label": "MaleHead_Cheeks",
+        "index": 5,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHead_Cheeks2",
+        "index": 6,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHead_FrownLines",
+        "index": 7,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHeadNord_Lips",
+        "index": 8,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHead_Nose",
+        "index": 9,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHeadHuman_ForeHead",
+        "index": 10,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHeadHuman_Chin",
+        "index": 11,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHeadHuman_Neck",
+        "index": 12,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHeadWarPaint_01",
+        "index": 14,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_02",
+        "index": 15,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_03",
+        "index": 16,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_04",
+        "index": 17,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_05",
+        "index": 18,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_06",
+        "index": 19,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_07",
+        "index": 20,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_08",
+        "index": 21,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_09",
+        "index": 22,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_10",
+        "index": 23,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadImperialWarPaint_01",
+        "index": 25,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadImperialWarPaint_02",
+        "index": 53,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadImperialWarPaint_03",
+        "index": 54,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadImperialWarPaint_04",
+        "index": 55,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadImperialWarPaint_05",
+        "index": 56,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadDirt_01",
+        "index": 24,
+        "skipChance": 0.100,
+        "minTinv": 1,
+        "maxTinv": 10
+      },
+      {
+        "label": "MaleHeadDirt_02",
+        "index": 57,
+        "skipChance": 0.100,
+        "minTinv": 1,
+        "maxTinv": 10
+      },
+      {
+        "label": "MaleHeadDirt_03",
+        "index": 58,
+        "skipChance": 0.100,
+        "minTinv": 1,
+        "maxTinv": 10
       }
     ]
   },
   "RedguardRace": {
     "female": [
       {
-        "index": 0
+        "label": "FemaleUpperEyeSocket",
+        "index": 34,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleLowerEyeSocket",
+        "index": 35,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleHead_Cheeks",
+        "index": 36,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleHead_Cheeks2",
+        "index": 37,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleHead_FrownLines",
+        "index": 38,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleHeadRedguard_Lips",
+        "index": 39,
+        "skipChance": 0.30,
+        "minTinv": 30,
+        "maxTinv": 80
+      },
+      {
+        "label": "FemaleHeadHuman_Nose",
+        "index": 40,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleHeadHuman_ForeHead",
+        "index": 41,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleHeadHuman_Chin",
+        "index": 42,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleHeadHuman_Neck",
+        "index": 43,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleNordEyeLinerStyle_01",
+        "index": 44,
+        "skipChance": 0.70,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleHeadWarPaint_01",
+        "index": 45,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_02",
+        "index": 46,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_03",
+        "index": 47,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_04",
+        "index": 48,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_05",
+        "index": 49,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_06",
+        "index": 50,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_07",
+        "index": 51,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_08",
+        "index": 52,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_09",
+        "index": 53,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_10",
+        "index": 54,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadDirt_01",
+        "index": 55,
+        "skipChance": 0.100,
+        "minTinv": 1,
+        "maxTinv": 10
+      },
+      {
+        "label": "FemaleHeadRedguardWarPaint_01",
+        "index": 56,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadRedguardWarPaint_02",
+        "index": 57,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadRedguardWarPaint_03",
+        "index": 58,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadRedguardWarPaint_04",
+        "index": 59,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadRedguardWarPaint_05",
+        "index": 60,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadDirt_02",
+        "index": 61,
+        "skipChance": 0.100,
+        "minTinv": 1,
+        "maxTinv": 10
+      },
+      {
+        "label": "FemaleHeadDirt_03",
+        "index": 62,
+        "skipChance": 0.100,
+        "minTinv": 1,
+        "maxTinv": 10
+      },
+      {
+        "label": "FemaleHeadBothiahTattoo_01",
+        "index": 70,
+        "skipChance": 0.100,
+        "minTinv": 1,
+        "maxTinv": 10
       }
     ],
     "male": [
       {
-        "index": 0
+        "label": "MaleUpperEyeSocket",
+        "index": 11,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleLowerEyeSocket",
+        "index": 12,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "RedGuardMaleEyeLinerStyle_01",
+        "index": 13,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHead_Cheeks",
+        "index": 14,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHead_Cheeks2",
+        "index": 15,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHead_FrownLines",
+        "index": 16,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHeadRedguard_Lips",
+        "index": 17,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHead_Nose",
+        "index": 18,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHeadHuman_ForeHead",
+        "index": 19,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHeadHuman_Chin",
+        "index": 20,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHeadHuman_Neck",
+        "index": 21,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHeadWarPaint_02",
+        "index": 22,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_01",
+        "index": 24,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_03",
+        "index": 25,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_04",
+        "index": 26,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_05",
+        "index": 27,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_06",
+        "index": 28,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_07",
+        "index": 29,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_08",
+        "index": 31,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_09",
+        "index": 30,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_10",
+        "index": 32,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadDirt_01",
+        "index": 33,
+        "skipChance": 0.100,
+        "minTinv": 1,
+        "maxTinv": 10
+      },
+      {
+        "label": "MaleHeadDirt_02",
+        "index": 63,
+        "skipChance": 0.100,
+        "minTinv": 1,
+        "maxTinv": 10
+      },
+      {
+        "label": "MaleHeadDirt_03",
+        "index": 64,
+        "skipChance": 0.100,
+        "minTinv": 1,
+        "maxTinv": 10
+      },
+      {
+        "label": "MaleHeadRedguardWarPaint_01",
+        "index": 65,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadRedguardWarPaint_02",
+        "index": 66,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadRedguardWarPaint_03",
+        "index": 67,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadRedguardWarPaint_04",
+        "index": 68,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadRedguardWarPaint_05",
+        "index": 69,
+        "skipChance": 0.95,
+        "minTinv": 50,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadBothiahTattoo_01",
+        "index": 71,
+        "skipChance": 0.100,
+        "minTinv": 1,
+        "maxTinv": 10
       }
     ]
   },
   "OrcRace": {
     "female": [
       {
-        "index": 0
+        "label": "FemaleUpperEyeSocket",
+        "index": 26,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleLowerEyeSocket",
+        "index": 27,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleHead_Cheeks",
+        "index": 28,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleHead_Cheeks2",
+        "index": 29,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleHead_FrownLines.dds",
+        "index": 30,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "FemaleHeadNord_Lips",
+        "index": 31,
+        "skipChance": 0.70,
+        "minTinv": 10,
+        "maxTinv": 40
+      },
+      {
+        "label": "FemaleHeadHuman_Nose",
+        "index": 32,
+        "skipChance": 0.90,
+        "minTinv": 1,
+        "maxTinv": 10
+      },
+      {
+        "label": "FemaleHeadHuman_ForeHead",
+        "index": 33,
+        "skipChance": 0.90,
+        "minTinv": 1,
+        "maxTinv": 10
+      },
+      {
+        "label": "FemaleHeadHuman_Chin",
+        "index": 34,
+        "skipChance": 0.90,
+        "minTinv": 1,
+        "maxTinv": 10
+      },
+      {
+        "label": "FemaleHeadHuman_Neck",
+        "index": 35,
+        "skipChance": 0.90,
+        "minTinv": 1,
+        "maxTinv": 10
+      },
+      {
+        "label": "FemaleNordEyeLinerStyle_01",
+        "index": 36,
+        "skipChance": 0.100,
+        "minTinv": 1,
+        "maxTinv": 10
+      },
+      {
+        "label": "FemaleHeadWarPaint_01",
+        "index": 37,
+        "skipChance": 0.95,
+        "minTinv": 60,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_02",
+        "index": 38,
+        "skipChance": 0.95,
+        "minTinv": 60,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_03",
+        "index": 39,
+        "skipChance": 0.95,
+        "minTinv": 60,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_04",
+        "index": 40,
+        "skipChance": 0.95,
+        "minTinv": 60,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_05",
+        "index": 41,
+        "skipChance": 0.95,
+        "minTinv": 60,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_06",
+        "index": 42,
+        "skipChance": 0.95,
+        "minTinv": 60,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_07",
+        "index": 43,
+        "skipChance": 0.95,
+        "minTinv": 60,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_08",
+        "index": 44,
+        "skipChance": 0.95,
+        "minTinv": 60,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_09",
+        "index": 45,
+        "skipChance": 0.95,
+        "minTinv": 60,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadWarPaint_10",
+        "index": 46,
+        "skipChance": 0.95,
+        "minTinv": 60,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadDirt_01",
+        "index": 47,
+        "skipChance": 0.100,
+        "minTinv": 40,
+        "maxTinv": 80
+      },
+      {
+        "label": "FemaleHeadDirt_02",
+        "index": 48,
+        "skipChance": 0.100,
+        "minTinv": 40,
+        "maxTinv": 80
+      },
+      {
+        "label": "FemaleHeadDirt_03",
+        "index": 49,
+        "skipChance": 0.100,
+        "minTinv": 40,
+        "maxTinv": 80
+      },
+      {
+        "label": "FemaleHeadOrcWarPaint_01",
+        "index": 56,
+        "skipChance": 0.95,
+        "minTinv": 60,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadOrcWarPaint_02",
+        "index": 57,
+        "skipChance": 0.95,
+        "minTinv": 60,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadOrcWarPaint_03",
+        "index": 58,
+        "skipChance": 0.95,
+        "minTinv": 60,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadOrcWarPaint_04",
+        "index": 59,
+        "skipChance": 0.95,
+        "minTinv": 60,
+        "maxTinv": 100
+      },
+      {
+        "label": "FemaleHeadOrcWarPaint_05",
+        "index": 60,
+        "skipChance": 0.95,
+        "minTinv": 60,
+        "maxTinv": 100
       }
     ],
     "male": [
       {
-        "index": 0
+        "label": "MaleUpperEyeSocket",
+        "index": 2,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleLowerEyeSocket",
+        "index": 3,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "RedGuardMaleEyeLinerStyle_01",
+        "index": 4,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHead_Cheeks",
+        "index": 5,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHead_Cheeks2",
+        "index": 6,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHead_FrownLines",
+        "index": 7,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHeadNord_Lips",
+        "index": 8,
+        "skipChance": 0.70,
+        "minTinv": 10,
+        "maxTinv": 40
+      },
+      {
+        "label": "MaleHead_Nose",
+        "index": 9,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHeadHuman_ForeHead",
+        "index": 10,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHeadHuman_Chin",
+        "index": 11,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHeadHuman_Neck",
+        "index": 12,
+        "skipChance": 0.90,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHeadWarPaint_01",
+        "index": 14,
+        "skipChance": 0.94,
+        "minTinv": 60,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_02",
+        "index": 15,
+        "skipChance": 0.94,
+        "minTinv": 60,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_03",
+        "index": 16,
+        "skipChance": 0.94,
+        "minTinv": 60,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_04",
+        "index": 17,
+        "skipChance": 0.94,
+        "minTinv": 60,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_05",
+        "index": 18,
+        "skipChance": 0.94,
+        "minTinv": 60,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_06",
+        "index": 19,
+        "skipChance": 0.94,
+        "minTinv": 60,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_07",
+        "index": 20,
+        "skipChance": 0.94,
+        "minTinv": 60,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_08",
+        "index": 23,
+        "skipChance": 0.94,
+        "minTinv": 60,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_09",
+        "index": 21,
+        "skipChance": 0.94,
+        "minTinv": 60,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadWarPaint_10",
+        "index": 24,
+        "skipChance": 0.94,
+        "minTinv": 60,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadOrcWarPaint_01",
+        "index": 52,
+        "skipChance": 0.94,
+        "minTinv": 60,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadOrcWarPaint_02",
+        "index": 53,
+        "skipChance": 0.94,
+        "minTinv": 60,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadOrcWarPaint_03",
+        "index": 54,
+        "skipChance": 0.94,
+        "minTinv": 60,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadOrcWarPaint_04",
+        "index": 55,
+        "skipChance": 0.94,
+        "minTinv": 60,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadOrcWarPaint_05",
+        "index": 61,
+        "skipChance": 0.94,
+        "minTinv": 60,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadDirt_01",
+        "index": 25,
+        "skipChance": 0.100,
+        "minTinv": 1,
+        "maxTinv": 10
+      },
+      {
+        "label": "MaleHeadDirt_02",
+        "index": 50,
+        "skipChance": 0.100,
+        "minTinv": 1,
+        "maxTinv": 10
+      },
+      {
+        "label": "MaleHeadDirt_03",
+        "index": 51,
+        "skipChance": 0.100,
+        "minTinv": 1,
+        "maxTinv": 10
       }
     ]
   },
   "KhajiitRace": {
     "female": [
       {
-        "index": 0
+        "label": "KhajiitEyeSocketUpper",
+        "index": 5,
+        "skipChance": 0.80,
+        "minTinv": 5,
+        "maxTinv": 30
+      },
+      {
+        "label": "KhajiitEyeliner",
+        "index": 6,
+        "skipChance": 0.80,
+        "minTinv": 5,
+        "maxTinv": 30
+      },
+      {
+        "label": "KhajiitCheekColorLower",
+        "index": 14,
+        "skipChance": 0.80,
+        "minTinv": 5,
+        "maxTinv": 30
+      },
+      {
+        "label": "KhajiitForehead",
+        "index": 15,
+        "skipChance": 0.80,
+        "minTinv": 5,
+        "maxTinv": 30
+      },
+      {
+        "label": "KhajiitChin",
+        "index": 16,
+        "skipChance": 0.80,
+        "minTinv": 5,
+        "maxTinv": 30
+      },
+      {
+        "label": "KhajiitEyeSocketLower",
+        "index": 17,
+        "skipChance": 0.80,
+        "minTinv": 5,
+        "maxTinv": 30
+      },
+      {
+        "label": "KhajiitCheekColor",
+        "index": 18,
+        "skipChance": 0.80,
+        "minTinv": 5,
+        "maxTinv": 30
+      },
+      {
+        "label": "KhajiitLipColor",
+        "index": 19,
+        "skipChance": 0.80,
+        "minTinv": 5,
+        "maxTinv": 30
+      },
+      {
+        "label": "KhajiitLaughline",
+        "index": 20,
+        "skipChance": 0.80,
+        "minTinv": 5,
+        "maxTinv": 30
+      },
+      {
+        "label": "KhajiitNeck",
+        "index": 31,
+        "skipChance": 0.80,
+        "minTinv": 5,
+        "maxTinv": 30
+      },
+      {
+        "label": "KhajiitStripes01",
+        "index": 32,
+        "skipChance": 0.95,
+        "minTinv": 30,
+        "maxTinv": 100
+      },
+      {
+        "label": "KhajiitStripes02",
+        "index": 33,
+        "skipChance": 0.95,
+        "minTinv": 30,
+        "maxTinv": 100
+      },
+      {
+        "label": "KhajiitStripes03",
+        "index": 34,
+        "skipChance": 0.95,
+        "minTinv": 30,
+        "maxTinv": 100
+      },
+      {
+        "label": "KhajiitStripes04",
+        "index": 35,
+        "skipChance": 0.95,
+        "minTinv": 30,
+        "maxTinv": 100
+      },
+      {
+        "label": "KhajiitPaint01",
+        "index": 36,
+        "skipChance": 0.95,
+        "minTinv": 30,
+        "maxTinv": 100
+      },
+      {
+        "label": "KhajiitPaint02",
+        "index": 37,
+        "skipChance": 0.95,
+        "minTinv": 30,
+        "maxTinv": 100
+      },
+      {
+        "label": "KhajiitPaint03",
+        "index": 38,
+        "skipChance": 0.95,
+        "minTinv": 30,
+        "maxTinv": 100
+      },
+      {
+        "label": "KhajiitPaint04",
+        "index": 39,
+        "skipChance": 0.95,
+        "minTinv": 30,
+        "maxTinv": 100
+      },
+      {
+        "label": "KhajiitNose01",
+        "index": 40,
+        "skipChance": 0.80,
+        "minTinv": 5,
+        "maxTinv": 20
+      },
+      {
+        "label": "MaleHeadDirt_01",
+        "index": 41,
+        "skipChance": 0.100,
+        "minTinv": 1,
+        "maxTinv": 10
       }
     ],
     "male": [
       {
-        "index": 0
+        "label": "KhajiitCheekColorLower",
+        "index": 2,
+        "skipChance": 0.80,
+        "minTinv": 5,
+        "maxTinv": 30
+      },
+      {
+        "label": "KhajiitEyeSocketUpper",
+        "index": 3,
+        "skipChance": 0.80,
+        "minTinv": 5,
+        "maxTinv": 30
+      },
+      {
+        "label": "KhajiitCheekColor",
+        "index": 7,
+        "skipChance": 0.80,
+        "minTinv": 5,
+        "maxTinv": 30
+      },
+      {
+        "label": "KhajiitForehead",
+        "index": 8,
+        "skipChance": 0.80,
+        "minTinv": 5,
+        "maxTinv": 30
+      },
+      {
+        "label": "KhajiitChin",
+        "index": 9,
+        "skipChance": 0.80,
+        "minTinv": 5,
+        "maxTinv": 30
+      },
+      {
+        "label": "KhajiitEyeliner",
+        "index": 10,
+        "skipChance": 0.80,
+        "minTinv": 5,
+        "maxTinv": 30
+      },
+      {
+        "label": "KhajiitLipColor",
+        "index": 11,
+        "skipChance": 0.80,
+        "minTinv": 5,
+        "maxTinv": 30
+      },
+      {
+        "label": "KhajiitLaughline",
+        "index": 12,
+        "skipChance": 0.80,
+        "minTinv": 5,
+        "maxTinv": 30
+      },
+      {
+        "label": "KhajiitEyeSocketLower",
+        "index": 13,
+        "skipChance": 0.80,
+        "minTinv": 5,
+        "maxTinv": 30
+      },
+      {
+        "label": "KhajiitNeck",
+        "index": 21,
+        "skipChance": 0.80,
+        "minTinv": 5,
+        "maxTinv": 30
+      },
+      {
+        "label": "KhajiitNose01",
+        "index": 22,
+        "skipChance": 0.80,
+        "minTinv": 5,
+        "maxTinv": 30
+      },
+      {
+        "label": "KhajiitStripes01",
+        "index": 23,
+        "skipChance": 0.95,
+        "minTinv": 30,
+        "maxTinv": 100
+      },
+      {
+        "label": "KhajiitStripes02",
+        "index": 24,
+        "skipChance": 0.95,
+        "minTinv": 30,
+        "maxTinv": 100
+      },
+      {
+        "label": "KhajiitStripes03",
+        "index": 25,
+        "skipChance": 0.95,
+        "minTinv": 30,
+        "maxTinv": 100
+      },
+      {
+        "label": "KhajiitStripes04",
+        "index": 26,
+        "skipChance": 0.95,
+        "minTinv": 30,
+        "maxTinv": 100
+      },
+      {
+        "label": "KhajiitPaint01",
+        "index": 27,
+        "skipChance": 0.95,
+        "minTinv": 30,
+        "maxTinv": 100
+      },
+      {
+        "label": "KhajiitPaint02",
+        "index": 28,
+        "skipChance": 0.95,
+        "minTinv": 30,
+        "maxTinv": 100
+      },
+      {
+        "label": "KhajiitPaint03",
+        "index": 29,
+        "skipChance": 0.95,
+        "minTinv": 30,
+        "maxTinv": 100
+      },
+      {
+        "label": "KhajiitPaint04",
+        "index": 30,
+        "skipChance": 0.95,
+        "minTinv": 30,
+        "maxTinv": 100
+      },
+      {
+        "label": "MaleHeadDirt_01",
+        "index": 42,
+        "skipChance": 0.100,
+        "minTinv": 1,
+        "maxTinv": 10
       }
     ]
   },
   "ArgonianRace": {
     "female": [
       {
-        "index": 0
+        "label": "ArgonianEyeSocketUpper",
+        "index": 17,
+        "skipChance": 0.80,
+        "minTinv": 10,
+        "maxTinv": 50
+      },
+      {
+        "label": "ArgonianEyeSocketLower",
+        "index": 18,
+        "skipChance": 0.80,
+        "minTinv": 10,
+        "maxTinv": 50
+      },
+      {
+        "label": "ArgonianCheeks",
+        "index": 19,
+        "skipChance": 0.70,
+        "minTinv": 10,
+        "maxTinv": 50
+      },
+      {
+        "label": "ArgonianNostrils01",
+        "index": 20,
+        "skipChance": 0.80,
+        "minTinv": 10,
+        "maxTinv": 50
+      },
+      {
+        "label": "ArgonianEyeLiner",
+        "index": 21,
+        "skipChance": 0.80,
+        "minTinv": 10,
+        "maxTinv": 50
+      },
+      {
+        "label": "ArgonianLips",
+        "index": 22,
+        "skipChance": 0.70,
+        "minTinv": 10,
+        "maxTinv": 50
+      },
+      {
+        "label": "ArgonianChin",
+        "index": 23,
+        "skipChance": 0.70,
+        "minTinv": 10,
+        "maxTinv": 50
+      },
+      {
+        "label": "ArgonianStripes01",
+        "index": 24,
+        "skipChance": 0.80,
+        "minTinv": 60,
+        "maxTinv": 100
+      },
+      {
+        "label": "ArgonianStripes02",
+        "index": 25,
+        "skipChance": 0.80,
+        "minTinv": 60,
+        "maxTinv": 100
+      },
+      {
+        "label": "ArgonianStripes03",
+        "index": 26,
+        "skipChance": 0.90,
+        "minTinv": 60,
+        "maxTinv": 100
+      },
+      {
+        "label": "ArgonianStripes04",
+        "index": 27,
+        "skipChance": 0.90,
+        "minTinv": 60,
+        "maxTinv": 100
+      },
+      {
+        "label": "ArgonianStripes05",
+        "index": 28,
+        "skipChance": 0.80,
+        "minTinv": 60,
+        "maxTinv": 100
+      },
+      {
+        "label": "ArgonianLaughline",
+        "index": 30,
+        "skipChance": 0.80,
+        "minTinv": 10,
+        "maxTinv": 50
+      },
+      {
+        "label": "ArgonianForehead",
+        "index": 31,
+        "skipChance": 0.80,
+        "minTinv": 10,
+        "maxTinv": 50
+      },
+      {
+        "label": "ArgonianCheeksLower",
+        "index": 34,
+        "skipChance": 0.80,
+        "minTinv": 10,
+        "maxTinv": 50
+      },
+      {
+        "label": "ArgonianDirt",
+        "index": 45,
+        "skipChance": 0.100,
+        "minTinv": 60,
+        "maxTinv": 100
       }
     ],
     "male": [
       {
-        "index": 0
+        "label": "ArgonianEyeSocketUpper",
+        "index": 6,
+        "skipChance": 0.80,
+        "minTinv": 10,
+        "maxTinv": 40
+      },
+      {
+        "label": "ArgonianEyeSocketLower",
+        "index": 7,
+        "skipChance": 0.80,
+        "minTinv": 10,
+        "maxTinv": 40
+      },
+      {
+        "label": "ArgonianCheeks",
+        "index": 8,
+        "skipChance": 0.70,
+        "minTinv": 10,
+        "maxTinv": 40
+      },
+      {
+        "label": "ArgonianNostrils01",
+        "index": 9,
+        "skipChance": 0.80,
+        "minTinv": 10,
+        "maxTinv": 40
+      },
+      {
+        "label": "ArgonianEyeLiner",
+        "index": 11,
+        "skipChance": 0.80,
+        "minTinv": 10,
+        "maxTinv": 40
+      },
+      {
+        "label": "ArgonianLips",
+        "index": 12,
+        "skipChance": 0.70,
+        "minTinv": 10,
+        "maxTinv": 40
+      },
+      {
+        "label": "ArgonianChin",
+        "index": 13,
+        "skipChance": 0.70,
+        "minTinv": 10,
+        "maxTinv": 40
+      },
+      {
+        "label": "ArgonianStripes01",
+        "index": 14,
+        "skipChance": 0.80,
+        "minTinv": 60,
+        "maxTinv": 100
+      },
+      {
+        "label": "ArgonianStripes02",
+        "index": 15,
+        "skipChance": 0.80,
+        "minTinv": 60,
+        "maxTinv": 100
+      },
+      {
+        "label": "ArgonianCheeksLower",
+        "index": 26,
+        "skipChance": 0.80,
+        "minTinv": 10,
+        "maxTinv": 40
+      },
+      {
+        "label": "ArgonianForehead",
+        "index": 28,
+        "skipChance": 0.80,
+        "minTinv": 10,
+        "maxTinv": 40
+      },
+      {
+        "label": "ArgonianLaughline",
+        "index": 29,
+        "skipChance": 0.80,
+        "minTinv": 1,
+        "maxTinv": 10
+      },
+      {
+        "label": "ArgonianStripes03",
+        "index": 35,
+        "skipChance": 0.80,
+        "minTinv": 60,
+        "maxTinv": 100
+      },
+      {
+        "label": "ArgonianDirt",
+        "index": 36,
+        "skipChance": 0.100,
+        "minTinv": 60,
+        "maxTinv": 100
+      },
+      {
+        "label": "ArgonianStripes04",
+        "index": 39,
+        "skipChance": 0.90,
+        "minTinv": 60,
+        "maxTinv": 100
+      },
+      {
+        "label": "ArgonianStripes05",
+        "index": 40,
+        "skipChance": 0.90,
+        "minTinv": 60,
+        "maxTinv": 100
+      },
+      {
+        "label": "ArgonianStripes06",
+        "index": 41,
+        "skipChance": 0.90,
+        "minTinv": 60,
+        "maxTinv": 100
       }
     ]
   }
