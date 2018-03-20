@@ -68,8 +68,20 @@ ngapp.service('npcHeadPartService', function(settingsService, progressService, p
         return ignoreKeys[pnam];
     };
 
+    let unloadHeadParts = function(headParts) {
+        if (headParts.constructor === Array) {
+            headParts.forEach(xelib.Release);
+        } else {
+            Object.keys(headParts).forEach(function(key) {
+                unloadHeadParts(headParts[key]);
+                delete headParts[key];
+            });
+        }
+    };
+
     // PUBLIC API
     this.loadHeadParts = function() {
+        unloadHeadParts({m: maleHeadParts, f: femaleHeadParts});
         xelib.WithEachHandle(xelib.GetElements(), function(file) {
             let headParts = xelib.GetRecords(file, 'HDPT'),
                 filename = xelib.Name(file),
