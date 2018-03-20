@@ -2,19 +2,7 @@ ngapp.service('npcColorService', function(settingsService, randomService) {
     let npcSettings = settingsService.settings.npcGeneration,
         colors = {},
         colorGroups = ['HairColor', 'HighElf', 'DarkElf', 'WoodElf',
-                       'Orc', 'Human', 'Redguard', 'Tint'],
-        raceSkinColorGroups = {
-            'HighElfRace': 'HighElf',
-            'DarkElfRace': 'DarkElf',
-            'WoodElfRace': 'WoodElf',
-            'BretonRace': 'Human',
-            'NordRace': 'Human',
-            'ImperialRace': 'Human',
-            'RedguardRace': 'Redguard',
-            'OrcRace': 'Orc',
-            'KhajiitRace': 'Tint',
-            'ArgonianRace': 'Tint'
-        };
+                       'Orc', 'Human', 'Redguard', 'Tint'];
 
     let generateHairColor = function(npc) {
         xelib.SetLinksTo(npc, 'HCLF', colors['HairColor'].random());
@@ -37,7 +25,7 @@ ngapp.service('npcColorService', function(settingsService, randomService) {
             setTextureLighting(npc, options.base);
         } else {
             let opts = options[female ? 'female' : 'male'],
-                colorGroup = raceSkinColorGroups[race],
+                colors = options.colorGroup,
                 color = createTintLayer(npc, colors[colorGroup], opts);
             setTextureLighting(npc, color);
         }
