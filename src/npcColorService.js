@@ -3,13 +3,13 @@ ngapp.service('npcColorService', function(settingsService, randomService) {
         colors = {},
         colorGroups = ['HairColor', 'HighElf', 'DarkElf', 'WoodElf',
                        'Orc', 'Human', 'Redguard', 'Tint'],
-        raceColorGroups = {
+        raceSkinColorGroups = {
             'HighElfRace': 'HighElf',
             'DarkElfRace': 'DarkElf',
             'WoodElfRace': 'WoodElf',
             'BretonRace': 'Human',
             'NordRace': 'Human',
-            'ImperialRace': 'Imperial',
+            'ImperialRace': 'Human',
             'RedguardRace': 'Redguard',
             'OrcRace': 'Orc',
             'KhajiitRace': 'Tint',
@@ -37,7 +37,7 @@ ngapp.service('npcColorService', function(settingsService, randomService) {
             setTextureLighting(npc, options.base);
         } else {
             let opts = options[female ? 'female' : 'male'],
-                colorGroup = raceColorGroups[race],
+                colorGroup = raceSkinColorGroups[race],
                 color = createTintLayer(npc, colors[colorGroup], opts);
             setTextureLighting(npc, color);
         }
