@@ -13,8 +13,9 @@ ngapp.run(function(settingsService) {
         defaultSettings: {
             names: fh.loadJsonFile(`${modulePath}/defaultNames.json`),
             skinColors: fh.loadJsonFile(`${modulePath}/defaultSkinColors.json`),
-            facialHairChance: 0.4,
+            facialHairChance: 0.40,
             scarChance: 0.15,
+            vampireChance: 0.02,
             headPartErrors: false,
             ignoreBethHair: false,
             ignoreBethEyebrows: false,

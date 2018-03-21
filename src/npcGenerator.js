@@ -4,10 +4,24 @@ ngapp.service('npcGenerator', function(settingsService, randomService, npcHeadPa
     let randomInt = randomService.randomInt;
     let weightedInt = randomService.weightedInt;
 
+    let assignGender = function(npc) {
+        let female = randomService.randomCheck(npcSettings.femaleChance),
+            flags = ["Auto-calc stats", "Unique"];
+        if (female) flags.shift('Female');
+        xelib.SetEnabledFlags(npc, 'ACBS\\Flags', flags);
+        return female;
+    };
+
     let newNpc = function(plugin) {
         let npc = xelib.AddElement(plugin, 'NPC_\\.'),
-            race = npcRaceService.getRandomRace();
-        
+            {race, raceHeights} = npcRaceService.assignRace(npc),
+            female = assignGender(npc);
+        return {
+            npc: npc,
+            race: race,
+            female: female,
+            raceHeights: raceHeights
+        }
     };
 
     let setWeight = function({npc}) {
@@ -16,9 +30,9 @@ ngapp.service('npcGenerator', function(settingsService, randomService, npcHeadPa
         SetIntValue(npc, 'NAM7', weight);
     };
 
-    let setHeight = function({npc, raceHeight, female}) {
+    let setHeight = function({npc, raceHeights, female}) {
         if (npcSettings.skipHeight) return;
-        let height = raceHeight[female ? 'Female' : 'Male'];
+        let height = raceHeights[female ? 'female' : 'male'];
         if (npcSettings.variableHeight) {
             let {heightHigh, heightLow} = npcSettings;
             height += randomInt(heightLow, heightHigh) / 100.0;

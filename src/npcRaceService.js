@@ -1,13 +1,30 @@
-ngapp.service('npcRaceService', function(settingsService) {
+ngapp.service('npcRaceService', function(settingsService, randomService) {
     let npcSettings = settingsService.settings.npcGeneration,
         races = [];
 
-    // PUBLIC API
-    this.getRandomRace = function() {
+    let getRandomRace = function() {
+        let race = races.random(),
+            vampiric = randomService.randomCheck(npcSettings.vampireChance);
+        return {
+            race: race.handle,
+            raceEdid: race[vampiric ? 'vampireEdid' : 'edid']
+        };
+    };
 
+    // PUBLIC API
+    this.assignRace = function(npc) {
+        let {race, raceEdid} = getRandomRace();
+        xelib.SetLinksTo(npc, 'RNAM', race);
+        return {
+            race: raceEdid,
+            raceHeights: {
+                female: xelib.GetFloatValue(race, 'DATA\\Female Height'),
+                male: xelib.GetFloatValue(race, 'DATA\\Male Height')
+            }
+        }
     };
 
     this.loadRaces = function() {
-
+        // TODO
     };
 });
