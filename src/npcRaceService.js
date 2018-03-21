@@ -6,8 +6,8 @@ ngapp.service('npcRaceService', function(settingsService, randomService) {
         let race = races.random(),
             vampiric = randomService.randomCheck(npcSettings.vampireChance);
         return {
-            race: race.handle,
-            raceEdid: race[vampiric ? 'vampireEdid' : 'edid']
+            race: vampiric ? race.vampiric : race.handle,
+            raceEdid: race.edid
         };
     };
 
