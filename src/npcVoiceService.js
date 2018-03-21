@@ -1,3 +1,11 @@
 ngapp.service('npcVoiceService', function() {
-    // TODO
+    let voiceTypes = [];
+
+    this.loadVoices = function() {
+
+    };
+
+    this.generateVoice = function(npc, race, female) {
+
+    };
 });

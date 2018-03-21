@@ -28,6 +28,7 @@ ngapp.run(function(settingsService) {
             skipOutfit: false,
             skipLighting: false,
             skipTintLayers: false,
+            skipVoice: false,
             loadFromMods: true
         }
     });
